@@ -5,9 +5,9 @@ import homeLogo from '../assets/about.png';
 
 import About from '../components/Home/About';
 import Particle from '../components/Particle';
-import Type from '../components/Home/Type';
+// import Type from '../components/Home/Type';
 
-const Home = () => {
+function Home  () {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -21,23 +21,33 @@ const Home = () => {
                   👋🏻
                 </span>
               </h1>
+              <h2 className="heading-name">
+                Saurav ,
+              </h2>
               <h1 className="heading-name">
-                Saurav Kumar ,
+                Freelancer React Native Developer
               </h1>
-              <h1 className="heading-name">
-                React Native Developer
-              </h1>
-              <h4 className="heading-para">
+              <h6 className="heading-loacation">
                 Based in Khagaria Bihar, India   {'!  '}
                 <span className="wave" role="img" aria-labelledby="wave">
                   🇮🇳
                 </span>
-              </h4>
+              </h6>
               <div style={{ paddingLeft: 40, textAlign: "left", paddingTop: 10 }}>
-                <h4>
-                I can help you out with...
+                {/* <h4 className="heading-para">
+                  Best Services
                 </h4>
-                <Type />
+                <ol style={{ textAlign: "left", fontSize: 17 }} type="a">
+                  <li>Expo (Mobile Apps CRM )</li>
+                  <li>React Native Cli ( Apps)</li>
+                  <li>React JS ( Web Application)</li>
+                  <li>Android iOS & Web</li>
+                </ol>
+                <h6 style={{ paddingTop: 30 }}>
+                  The best mobile app solution for your business...
+                </h6> */}
+
+                {/* <Type /> */}
               </div>
             </Col>
 
@@ -46,7 +56,7 @@ const Home = () => {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "450px" ,marginTop:100 }}
               />
             </Col>
           </Row>

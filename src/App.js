@@ -20,6 +20,7 @@ import ScrollToTop from "./components/ScrollToTop"
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Service from "./pages/Service";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -40,6 +41,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/service" element={<Service />} />
           <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />

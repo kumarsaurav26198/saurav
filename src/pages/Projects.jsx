@@ -8,7 +8,7 @@ import lift from "../assets/projects/lift.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 
-const Projects = () => {
+function Projects () {
   return (
     <Container fluid className="project-section">
       <Particle />

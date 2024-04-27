@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 const Type = () => {
     return (
       <div className="typewriter-container">
+        <span>{}</span>
         <Typewriter
           options={{
             strings: [
@@ -17,6 +18,8 @@ const Type = () => {
             deleteSpeed: 20,
           }}
         />
+        <span>{}</span>
+
       </div>
 
       )
