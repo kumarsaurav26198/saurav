@@ -4,7 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-// import { CgGitFork } from "react-icons/cg";
+import { GrServices } from "react-icons/gr";
+
 import {
   // AiFillStar,
   AiOutlineHome,
@@ -62,7 +63,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link as={Link} to="/service" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Service
+                <GrServices style={{ marginBottom: "2px" }} /> Service
               </Nav.Link>
             </Nav.Item>
 

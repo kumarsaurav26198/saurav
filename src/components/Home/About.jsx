@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
-  AiOutlineYoutube,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -16,23 +16,36 @@ const About = () => {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em",textAlign:"start" }}>
+            <h1 style={{ fontSize: "2.6em", textAlign: "start" }}>
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, my name is <span className="yellow">Ashish  </span>
-              and I'm from <span className="yellow"> Purnea, Bihar, India</span>
+              Hi, My name is <span className="yellow">Saurav  </span>
+              and I'm from <span className="yellow"> Khagaria, Bihar, India</span>
               <br />
               <br />
-              I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+              I graduated from <b className="yellow"> Guru Kashi University</b> with a bachelor's degree in computer science.
+              <br />
+              Having <span className="yellow">3  years</span>  of hands-on experience in  industry as a Software Engineer,
+              <br />
+              <br />I can help you out with
+              <b className="yellow"> React Native  </b>(Android & iOS),
+              <b className="yellow"> React Js  </b>(web Application),
               <br />
               <br />
-              As a
-              <b className="yellow"> Full-Stack </b>developer,
+              I am also interested in building new
+              <i>
+                <b className="yellow"> Web Technologies and Products, </b>
+                as well as exploring areas related to
+                <b className="yellow"> Artificial Intelligence.</b>
+              </i> 
+              <br />
+              <br />
+              {/* As a */}
+              {/* <b className="yellow"> React Native  </b>developer,
               I enjoy tackling new challenges and continuously expanding my skillset.
               <br />
-              <br />I am proficient in
-              <b className="yellow"> Javascript, </b>
+              
               as well as have knowledge in programming languages such as C, Java, Python,
               <b className="yellow"> GraphQL, and Solidity.</b>
               <br />
@@ -49,14 +62,7 @@ const About = () => {
               <i>
                 <b className="yellow"> React.js</b>
               </i>
-              <br />
-              <br />
-              I am also interested in building new
-              <i>
-                <b className="yellow"> Web Technologies and Products, </b>
-                as well as exploring areas related to
-                <b className="yellow"> Artificial Intelligence.</b>
-              </i>
+            */}
               <br />
 
             </p>
@@ -76,7 +82,7 @@ const About = () => {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/lonelyashish"
+                  href="https://github.com/kumarsaurav26198"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,18 +93,18 @@ const About = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.youtube.com/channel/UCdMj2aswCSwt2OlO-PsXczw"
+                  href="https://twitter.com/magnetsaurav"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                   aria-label="twitter"
                 >
-                  <AiOutlineYoutube />
+                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/ashish-kumar-bb2558225/"
+                  href="https://www.linkedin.com/in/saurav-kumar-55b5131ab/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -109,7 +115,7 @@ const About = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/lonelyashish_0/"
+                  href="https://www.instagram.com/magnetsaurav/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
