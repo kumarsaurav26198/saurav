@@ -3,13 +3,13 @@ import { Container } from "react-bootstrap";
 import Particle from "../components/Particle";
 import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
-import Leetcode from "../components/Skillset/Leetcode";
+// import Leetcode from "../components/Skillset/Leetcode";
 import Github from "../components/Skillset/Github";
 
 
 function Service ()  {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section" id="service">
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -22,7 +22,7 @@ function Service ()  {
           <strong className="yellow">Tools</strong> I use
         </h1>
         <Toolstack />
-        <Leetcode />
+        {/* <Leetcode /> */}
         <Github />
       </Container>
     </Container>
