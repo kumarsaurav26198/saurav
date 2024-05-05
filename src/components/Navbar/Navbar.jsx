@@ -67,16 +67,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/skillset"
-                onClick={() => updateExpanded(false)}
-              >
-                <GiSkills style={{ marginBottom: "2px" }} /> Skillset
-              </Nav.Link>
-            </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -89,6 +80,16 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skillset"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiSkills style={{ marginBottom: "2px" }} /> Skillset
+              </Nav.Link>
+            </Nav.Item>
+
 
             <Nav.Item>
               <Nav.Link
