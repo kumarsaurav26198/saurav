@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+// import favicon from '../../assets/favicon.png'
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { GrServices } from "react-icons/gr";
@@ -41,8 +42,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           <h1>SAURAV</h1>
+          {/* <img src={favicon} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

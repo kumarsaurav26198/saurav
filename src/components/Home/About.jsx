@@ -8,6 +8,8 @@ import {
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Lottie from 'lottie-react';
+import about from '../../assets/lottiefiles/about.json'
 
 
 const About = () => {
@@ -69,6 +71,8 @@ const About = () => {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
+            {/* <Lottie animationData={about}  /> */}
+
               <img src={LaptopImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>

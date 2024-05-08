@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from '../assets/about.png';
+// import homeLogo from '../assets/about.png';
+// import service from '../assets/lottiefiles/services.json';
+import an2 from '../assets/lottiefiles/an2.json';
 
 
 import About from '../components/Home/About';
 import Particle from '../components/Particle';
+import Lottie from 'lottie-react';
 // import Type from '../components/Home/Type';
 
 function Home  () {
@@ -33,7 +36,7 @@ function Home  () {
                   🇮🇳
                 </span>
               </h6>
-              <div style={{ paddingLeft: 40, textAlign: "left", paddingTop: 10 }}>
+              <div style={{ paddingLeft: 10, textAlign: "left", paddingTop: 10 }}>
                 {/* <h4 className="heading-para">
                   Best Services
                 </h4>
@@ -51,13 +54,15 @@ function Home  () {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
+            <Col md={5} >
+            {/* <Lottie animationData={an2}  style={{ maxHeight: "450px" ,marginTop:10 }}  className="img-fluid"/> */}
+            <Lottie animationData={an2}  />
+              {/* <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" ,marginTop:100 }}
-              />
+              /> */}
             </Col>
           </Row>
         </Container>
