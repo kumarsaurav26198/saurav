@@ -13,8 +13,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi";
-import { CgFileDocument } from "react-icons/cg";
+// import { GiSkills } from "react-icons/gi";
+// import { CgFileDocument } from "react-icons/cg";
 
 
 function NavBar() {
@@ -81,7 +81,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/skillset"
@@ -89,10 +89,10 @@ function NavBar() {
               >
                 <GiSkills style={{ marginBottom: "2px" }} /> Skillset
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -100,7 +100,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
