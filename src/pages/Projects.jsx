@@ -6,6 +6,14 @@ import Images from "../assets/Images";
 
 const ProjectCardData = [
   { 
+    imgPath: Images.project4, 
+    isBlog: false, 
+    title: "Suvera Food", 
+    description: 
+"Welcome to Suvera Food, the ultimate destination for premium, farm-fresh meat delivered straight to your door. With every cut, we bring you a story of quality and care, ensuring every bite is a flavorful delight. Whether you’re grilling, roasting, or cooking up a storm, our carefully sourced meats will elevate your meals. Join the Fresh Meats Family today and experience the joy of fresh, responsibly-sourced meats. Simply enter your number to keep the goodness coming right to your doorstep!", 
+    demoLink: "https://photos.app.goo.gl/9a2NupeBuHcTBiPx7" 
+  },
+  { 
     imgPath: Images.project1, 
     isBlog: false, 
     title: "Wave", 
@@ -19,27 +27,27 @@ const ProjectCardData = [
     description: "Estate96 is bootstrapped in 2021 to serve the Commercials Estates(IT Offices/IT Parks/Commercial Buldings) Our future plan is to implement the secuirty for Residentials/Hospitals etc. In which I have set all screen navigation and their design which is rated by client. Add font, Use number for login ,getting the OTP also solved gitBucket and managing the branch.Estate96 is backed by team which is determined to bring change in the management system for all the estates", 
     demoLink: "https://photos.app.goo.gl/jZ8fyXBfQSgXcHLE8" 
   },
-  { 
-    imgPath: Images.lift, 
-    isBlog: false, 
-    title: "Lift-Buddy", 
-    description: "This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management.", 
-    demoLink: "https://project-krypto.netlify.app/" 
-  },
-  { 
-    imgPath: Images.project, 
-    isBlog: false, 
-    title: "Social Media", 
-    description: "This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database.", 
-    demoLink: "https://project-krypto.netlify.app/" 
-  },
-  { 
-    imgPath: Images.kickstart, 
-    isBlog: false, 
-    title: "E‑Commerce Website", 
-    description: "This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database.", 
-    demoLink: "https://project-krypto.netlify.app/" 
-  },
+  // { 
+  //   imgPath: Images.lift, 
+  //   isBlog: false, 
+  //   title: "Lift-Buddy", 
+  //   description: "This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management.", 
+  //   demoLink: "https://project-krypto.netlify.app/" 
+  // },
+  // { 
+  //   imgPath: Images.project, 
+  //   isBlog: false, 
+  //   title: "Social Media", 
+  //   description: "This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database.", 
+  //   demoLink: "https://project-krypto.netlify.app/" 
+  // },
+  // { 
+  //   imgPath: Images.kickstart, 
+  //   isBlog: false, 
+  //   title: "E‑Commerce Website", 
+  //   description: "This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database.", 
+  //   demoLink: "https://project-krypto.netlify.app/" 
+  // },
   { 
     imgPath: Images.pg, 
     isBlog: false, 
@@ -61,13 +69,13 @@ const ProjectCardData = [
     description: "Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns.", 
     demoLink: "https://project-krypto.netlify.app/" 
   },
-  { 
-    imgPath: Images.pg, 
-    isBlog: false, 
-    title: "ProgrammingwithMosh", 
-    description: "This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience.", 
-    demoLink: "https://project-krypto.netlify.app/" 
-  },
+  // { 
+  //   imgPath: Images.pg, 
+  //   isBlog: false, 
+  //   title: "ProgrammingwithMosh", 
+  //   description: "This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience.", 
+  //   demoLink: "https://project-krypto.netlify.app/" 
+  // },
 ];
 
 function Projects() {
