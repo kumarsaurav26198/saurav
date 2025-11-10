@@ -25,16 +25,23 @@ function Home  () {
                 </span>
               </h1>
               <h2 className="heading-name">
-                Saurav ,
+                I’m Saurav,
               </h2>
               <h1 className="heading-name">
-                Freelancer React Native Developer
+                A Senior Software Engineer | React Native Specialist | 4+ Years of Experience.
               </h1>
+            
+              {/* <h1 className="heading-name">
+                Freelancer React Native Developer
+              </h1> */}
               <h6 className="heading-loacation">
-                Based in Khagaria Bihar, India   {'!  '}
+                Freelancing from Khagaria, Bihar, India   {'!  '}
                 <span className="wave" role="img" aria-labelledby="wave">
                   🇮🇳
                 </span>
+              </h6>
+              <h6 className="heading-loacation">
+                Transforming ideas into beautiful digital experiences that inspire and perform.
               </h6>
               <div style={{ paddingLeft: 10, textAlign: "left", paddingTop: 10 }}>
                 {/* <h4 className="heading-para">

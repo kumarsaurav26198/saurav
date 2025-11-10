@@ -78,3 +78,25 @@ textarea{
     }
 
 }
+.c-right .button {
+  width: 24rem; /* same as .user inputs */
+  height: 3rem;
+  background-color: var(--purple);
+  color: white;
+  font-size: 19px;
+  border: 2px solid #40008a;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.c-right .button:hover {
+  box-shadow: 0 0 9px #7500fa;
+}
+
+/* Mobile responsive width */
+@media screen and (max-width: 480px) {
+  .c-right .button {
+    width: 16rem; /* match mobile input width */
+  }
+}
